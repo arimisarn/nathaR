@@ -11,7 +11,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY
 # =====================
 SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-dev')
-DEBUG = os.environ.get('DEBUG') == 'True'
+DEBUG = 'False'
 ALLOWED_HOSTS = [
     "nathar.onrender.com",
 ]
